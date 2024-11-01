@@ -1,0 +1,11 @@
+<!-- config.xml -->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="connection.xsd">
+    <database>
+        <host>localhost</host>
+        <port>5492</port>
+        <dbname>db_invoices</dbname>
+        <user>postgres</user>
+        <password>postgres</password>
+    </database>
+</config>

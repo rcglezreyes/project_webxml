@@ -1,0 +1,15 @@
+services:
+  postgres_project_xml:
+    image: postgres:16
+    ports:
+      - "5492:5432"
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: db_invoices
+    volumes:
+      - ./scripts_db/init.sh:/docker-entrypoint-initdb.d/init.sh:/docker-entrypoint-initdb.d
+      - ./data:/var/lib/postgresql/data
+
+volumes:
+  data:

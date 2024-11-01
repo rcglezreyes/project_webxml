@@ -1,0 +1,11 @@
+<products xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="products.xsd">
+    <product price="19.99" tax_rate="5.0" code="P001">
+        <name>Product 1</name>
+        <description>A sample product</description>
+    </product>
+    <product price="49.99" tax_rate="10.0" code="P002">
+        <name>Product 2</name>
+        <description>Another product</description>
+    </product>
+</products>
